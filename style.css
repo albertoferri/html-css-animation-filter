@@ -76,6 +76,7 @@
 
 .ex-2-square:active{
     width: 200px;
+    transition-duration: 1s;
 }
 
 .ex-3-square:hover{
@@ -86,4 +87,36 @@
 .ex-4-square:hover{
     opacity: 0;
     transition-duration: 1s;
+}
+
+.ex-5-square:hover{
+    transform: scale(1.5);
+    transition-duration: 1s;
+}
+
+.ex-5-square:active{
+    transform: scale(.5);
+}
+
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+
+.ex-7-img:hover{
+    filter: sepia(1);
+    transition: .3s;
+}
+
+.ex-8-img:active{
+    filter: blur(2px);
+    transform: scale(.8);
+    transition-duration: .3s;
+    border-radius: 25px;
+}
+
+.ex-9-img:active{
+    filter: blur(1px);
+    transform: scale(1.4);
+    transition-duration: .3s;
+    border-radius: 20px;
 }
